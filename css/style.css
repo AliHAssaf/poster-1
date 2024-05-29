@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,button{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 720px;
+    margin: 0 auto;
+    margin-top: 80px;
+    header{
+        display: block;
+        .hero{
+            float: left;
+            h1{
+                color: transparent;
+                font-size: 5em;
+                width: 340px;
+                line-height: .8em;
+                background-image: url('../img/text-bg.jpg');
+                -webkit-background-clip: text;
+                background-clip: text;
+            }
+            p{
+                color: #63605e;
+                width: 340px;
+                padding: 20px 0;
+            }
+            button{
+                padding: 4px 15px;
+                border-radius: 15px;
+                border: none;
+                background-color: #63605e;
+                color: white;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+        }
+        .logo{
+            img{
+                float: right;
+                width: 100px;
+            }
+        }
+    }
+    main{
+        display: inline-block;
+        .hand-written{
+            font-family: reey;
+            font-weight: 500;
+            font-size: 50px;
+            color: #63605e;
+            width: 400px;
+            transform: rotate(335deg);
+            line-height: 1.4em;
+        }
+        .main-image{
+            position: relative;
+            top: -375px;
+            left: 200px;
+            z-index: -1;
+            img{
+                width: 75%;
+            }
+        }
+    }
+    footer{
+        position: relative;
+        top: -700px;
+        .contact-info{
+            p{
+                color: #63605e;
+            }
+        }
+        .social{
+            ul{
+                li{
+                    list-style-type: none;
+                    float: left;
+                    padding-right: 10px;
+                    img{
+                        width: 24px;
+                        
+                    }
+                }
+            }
+        }
+        .website{
+            float: right;
+            a{
+                color: #63605e;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
